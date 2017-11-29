@@ -1,0 +1,28 @@
+body {
+	margin: 0px;
+	background-color: #aaddff;
+}
+
+.container {
+	display: inline-block;
+}
+
+#wall {
+	background-color: #777;
+	/* display: inline-block; */
+	/* position: fixed; */
+	width:100px;
+	height: 600px;
+}
+
+#bird {
+	background: url("twit.png");
+	background-size: cover;
+	background-position: right top;
+	border: 4px solid #888;
+	transform: rotate(45deg);
+	left: 100px;
+	height: 80px;
+	width: 80px;
+	position: fixed;
+}
